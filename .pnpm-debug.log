@@ -3,13 +3,12 @@
     "selected": 1
   },
   "1 error pnpm": {
-    "code": "ERR_PNPM_INIT_ARG",
-    "hint": "Maybe you wanted to run \"pnpm create vuepress-theme-hope@next docs\"",
+    "code": "ERR_PNPM_NO_PKG_MANIFEST",
     "err": {
       "name": "pnpm",
-      "message": "init command does not accept any arguments",
-      "code": "ERR_PNPM_INIT_ARG",
-      "stack": "pnpm: init command does not accept any arguments\n    at Object.handler [as init] (/opt/homebrew/Cellar/pnpm/7.0.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:173674:15)\n    at /opt/homebrew/Cellar/pnpm/7.0.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176185:51\n    at async run (/opt/homebrew/Cellar/pnpm/7.0.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176161:34)\n    at async runPnpm (/opt/homebrew/Cellar/pnpm/7.0.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176379:5)\n    at async /opt/homebrew/Cellar/pnpm/7.0.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176371:7"
+      "message": "No package.json found in /Users/icode/Documents/Blog/icodea/blog",
+      "code": "ERR_PNPM_NO_PKG_MANIFEST",
+      "stack": "pnpm: No package.json found in /Users/icode/Documents/Blog/icodea/blog\n    at handler (/Users/icode/Library/pnpm/global/5/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:121603:17)\n    at async /Users/icode/Library/pnpm/global/5/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182701:21\n    at async run (/Users/icode/Library/pnpm/global/5/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182675:34)\n    at async runPnpm (/Users/icode/Library/pnpm/global/5/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182893:5)\n    at async /Users/icode/Library/pnpm/global/5/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182885:7"
     }
   }
 }

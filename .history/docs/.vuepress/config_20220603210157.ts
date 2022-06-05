@@ -1,4 +1,3 @@
-import { searchPlugin } from "@vuepress/plugin-search";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
@@ -32,8 +31,6 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-
-    
     
     docsearchPlugin({
       // 你的选项
@@ -42,8 +39,8 @@ export default defineUserConfig({
       apiKey: "010263e6e839168368a7df709a2445ce",
       indexName: "icodea",
 
-      locales: {
-        "/": {
+      /* locales: {
+        "/zh/": {
           placeholder: "搜索文档",
           translations: {
             button: {
@@ -84,7 +81,7 @@ export default defineUserConfig({
             },
           },
         },
-      },
+      }, */
     }),
   ],
 

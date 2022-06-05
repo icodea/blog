@@ -33,7 +33,12 @@ export default defineUserConfig({
 
   plugins: [
 
-    
+    searchPlugin({
+      // 配置项
+      placeholder: "搜索", 
+      // 搜索框的提示文字
+
+    }),
     
     docsearchPlugin({
       // 你的选项
@@ -43,7 +48,7 @@ export default defineUserConfig({
       indexName: "icodea",
 
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations: {
             button: {

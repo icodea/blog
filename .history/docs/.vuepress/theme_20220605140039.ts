@@ -132,15 +132,15 @@ export default hopeTheme({
       categoryId: "DIC_kwDOHcWQI84CPcj9",
 
       /**
-       * Using Twikoo
+       * Using twikoo
        */
-      // provider: "Twikoo",
+      // type: "twikoo",
       // envId: "https://twikoo.ccknbc.vercel.app",
 
       /**
        * Using Waline
        */
-      // provider: "Waline",
+      // type: "waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 

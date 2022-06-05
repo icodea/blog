@@ -43,7 +43,7 @@ export default defineUserConfig({
       indexName: "icodea",
 
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations: {
             button: {

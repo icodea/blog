@@ -125,22 +125,22 @@ export default hopeTheme({
       /**
        * Using giscus
        */
-      provider: "Giscus",
-      repo: "icodea/blog",
-      repoId: "R_kgDOHcWQIw",
+      type: "giscus",
+      repo: "icodea/icodea.github.io",
+      repoId: "MDEwOlJlcG9zaXRvcnkyMDA3MDc2NTI=",
       category: "Announcements",
-      categoryId: "DIC_kwDOHcWQI84CPcj9",
+      categoryId: "DIC_kwDOC_aORM4CPIFB",
 
       /**
-       * Using Twikoo
+       * Using twikoo
        */
-      // provider: "Twikoo",
+      // type: "twikoo",
       // envId: "https://twikoo.ccknbc.vercel.app",
 
       /**
        * Using Waline
        */
-      // provider: "Waline",
+      // type: "waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 

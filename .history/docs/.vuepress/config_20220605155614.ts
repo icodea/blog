@@ -33,7 +33,16 @@ export default defineUserConfig({
 
   plugins: [
 
-    
+    searchPlugin({
+      
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+      
+
+    }),
     
     docsearchPlugin({
       // 你的选项
@@ -43,7 +52,7 @@ export default defineUserConfig({
       indexName: "icodea",
 
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations: {
             button: {

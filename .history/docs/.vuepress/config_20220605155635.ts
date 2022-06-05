@@ -33,9 +33,18 @@ export default defineUserConfig({
 
   plugins: [
 
+    searchPlugin({
+      
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+      
+
+    }),
     
-    
-    docsearchPlugin({
+    /* docsearchPlugin({
       // 你的选项
       // appId, apiKey 和 indexName 是必填的
       appId: "0W2BTKIM6W",
@@ -43,7 +52,7 @@ export default defineUserConfig({
       indexName: "icodea",
 
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations: {
             button: {
@@ -85,7 +94,7 @@ export default defineUserConfig({
           },
         },
       },
-    }),
+    }), */
   ],
 
 });
